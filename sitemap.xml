@@ -3,7 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lovro.rocks/posts/crm-mail-view-webresource/</loc>
+    <lastmod>2018-08-19T09:59:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/posts/crm-subgrids/</loc>
+    <lastmod>2018-08-19T09:59:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/posts/crm-case-to-customer-plugin/</loc>
+    <lastmod>2018-08-19T09:59:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/posts/my-first-post/</loc>
+    <lastmod>2018-08-19T09:59:50+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lovro.rocks/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/posts/</loc>
+    <lastmod>2018-08-19T09:59:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14,6 +40,7 @@
   
   <url>
     <loc>https://lovro.rocks/</loc>
+    <lastmod>2018-08-19T09:59:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
