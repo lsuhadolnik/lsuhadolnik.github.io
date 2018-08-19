@@ -6,50 +6,9 @@
     <description>Recent content on lovro.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Aug 2018 09:59:50 +0200</lastBuildDate>
     
 	<atom:link href="https://lovro.rocks/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>CRM Mail view WebResource</title>
-      <link>https://lovro.rocks/posts/crm-mail-view-webresource/</link>
-      <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/crm-mail-view-webresource/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CRM Subgrids</title>
-      <link>https://lovro.rocks/posts/crm-subgrids/</link>
-      <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/crm-subgrids/</guid>
-      <description>Aww yeah, my blog post!! * povej za HTTPS * povej, zakaj rabiš * povej, kako si dobil URL * povej, kako si rešil
-I tested my assumptions using an IFrame directly on the form. Dynamics&amp;rsquo; Form Editor allows you to add a WebResource onto a form, but it also allow you to put just an Iframe. You provide the URL and the content pops up. Yaay! The ribbon worked.</description>
-    </item>
-    
-    <item>
-      <title>Hacking Convert to Case button</title>
-      <link>https://lovro.rocks/posts/crm-case-to-customer-plugin/</link>
-      <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/crm-case-to-customer-plugin/</guid>
-      <description>Some time ago my
-  Povej, zakaj rabiš. Povej, kako deluje Povej, kako sem pregledoval mail origin in da to ne deluje v Outlooku Povej za Query in kako se je izšlo Dodaj source code  Poskusil sem narediti s Querijem, ampak je težava, ker še ni ustvarjenega Case-a, zato pač Query ničesar ne najde&amp;hellip;
-Na koncu sem odstranil check in sedaj vedno pretvarjam.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://lovro.rocks/posts/my-first-post/</link>
-      <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/my-first-post/</guid>
-      <description>Testing the installation&amp;hellip;
-UIIII!!! I have my very own website!!</description>
-    </item>
     
   </channel>
 </rss>
