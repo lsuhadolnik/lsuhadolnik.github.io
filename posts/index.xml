@@ -36,9 +36,10 @@ I tested my assumptions using an IFrame directly on the form. Dynamics&amp;rsquo
       <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
       
       <guid>https://lovro.rocks/posts/crm-case-to-customer-plugin/</guid>
-      <description>Some time ago my
+      <description> Some time ago my
   Povej, zakaj rabiš. Povej, kako deluje Povej, kako sem pregledoval mail origin in da to ne deluje v Outlooku Povej za Query in kako se je izšlo Dodaj source code  Poskusil sem narediti s Querijem, ampak je težava, ker še ni ustvarjenega Case-a, zato pač Query ničesar ne najde&amp;hellip;
-Na koncu sem odstranil check in sedaj vedno pretvarjam.</description>
+Na koncu sem odstranil check in sedaj vedno pretvarjam.
+title: &amp;ldquo;itle: &amp;ldquo;My little pony&amp;rdquo; </description>
     </item>
     
     <item>
@@ -49,6 +50,15 @@ Na koncu sem odstranil check in sedaj vedno pretvarjam.</description>
       <guid>https://lovro.rocks/posts/my-first-post/</guid>
       <description>Testing the installation&amp;hellip;
 UIIII!!! I have my very own website!!</description>
+    </item>
+    
+    <item>
+      <title>Test post</title>
+      <link>https://lovro.rocks/posts/test-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lovro.rocks/posts/test-post/</guid>
+      <description>Test</description>
     </item>
     
   </channel>
