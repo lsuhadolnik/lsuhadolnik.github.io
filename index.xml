@@ -6,22 +6,10 @@
     <description>Recent content on lovro.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Aug 2018 10:52:23 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 22 Aug 2018 09:59:50 +0200</lastBuildDate>
     
 	<atom:link href="https://lovro.rocks/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Dynamics CRM Plugin context depth</title>
-      <link>https://lovro.rocks/posts/crm-plugin-context-depth/</link>
-      <pubDate>Wed, 22 Aug 2018 10:52:23 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/crm-plugin-context-depth/</guid>
-      <description>Opiši kaj se je zgodilo - Plugin kliče Create Message, na katerega sem že obesil Plugin
-Povej, da imam plugin Boilerplate
-Napiši, kako se stvari niso updejtale, ker je bila v Plugin Boilerplate naštimana prepreka, da mora biti context depth največ ena.
-Preštudiraj plugin Context depth</description>
-    </item>
     
     <item>
       <title>About Mycroft</title>
@@ -30,78 +18,6 @@ Preštudiraj plugin Context depth</description>
       
       <guid>https://lovro.rocks/posts/about-mycroft/</guid>
       <description>My company is a fine little place, where everyone does what they must. It is a place where people feels so at home. And not only the employees but also our customers. When you enter the main office, our accountant interviews you about your living, you can even eat some food there and if you are especially lucky, somebody comes around and offers you a drink. Everybody got very used to this rhythm.</description>
-    </item>
-    
-    <item>
-      <title>Dynamics CRM JavaScript - Read this before pasting code from the web</title>
-      <link>https://lovro.rocks/posts/crm-unsupported-features/</link>
-      <pubDate>Mon, 20 Aug 2018 10:32:00 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/crm-unsupported-features/</guid>
-      <description>https://msdn.microsoft.com/sl-si/library/hh771584(v=crm.7).aspx#BKMK_AreasToUseJavaScript
-Piši o nepodprtih stvareh v JavaScriptu, ki jih pogosto srečaš na forumih
-Če se le da, napiši SERVER SIDE plugin, ker je sigurno podprtro.
-https://crmgiant.eu/uncategorized/what-are-unsupported-by-microsoft-customizations-in-dynamics-crm/
-http://www.toplinestrategies.com/blogs/crm/crm-2016-gotcha-fix-unsupported-javascript
-https://www.magnetismsolutions.com/blog/zoesands/2016/02/22/unsupported-scripts-and-global-functions-and-variables-in-2016
-https://crmbook.powerobjects.com/extending-crm/javascript/crm-javascript-best-practices/
-https://crmbusiness.wordpress.com/2014/01/27/why-you-shouldnt-put-unsupported-customizations-in-microsoft-dynamics-crm/</description>
-    </item>
-    
-    <item>
-      <title>CRM Subgrids part 2 - the solution</title>
-      <link>https://lovro.rocks/posts/crm-subgrids-part-2/</link>
-      <pubDate>Mon, 20 Aug 2018 08:40:00 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/crm-subgrids-part-2/</guid>
-      <description>https://msdn.microsoft.com/en-us/library/dn932126
-https://www.c-sharpcorner.com/article/to-get-multi-select-values-from-sub-grid-within-entity-form-from-plugin-using-c-sharp/
-https://social.microsoft.com/Forums/en-US/64e575b0-11fe-406f-afad-62fef7fa94a1/getting-selected-ids-of-a-sub-grid?forum=crmdevelopment
-https://ribbonworkbench.uservoice.com/knowledgebase/articles/129783-pass-the-currently-selected-grid-row-s-to-a-custo
-https://community.dynamics.com/crm/f/117/t/233606
-http://vikramxrm.blogspot.com/2013/11/read-subgrid-records-ms-crm-2013-using.html
-&amp;mdash;Kako sem naredil testni knof, da sem dobil kontekst&amp;mdash;
-Pokaži, kako se raziskuje atribute s Chrome-om (posnemi GIF)
-Pokaži Microsoft dokumentacijo</description>
-    </item>
-    
-    <item>
-      <title>CRM Mail view WebResource</title>
-      <link>https://lovro.rocks/posts/crm-mail-view-webresource/</link>
-      <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/crm-mail-view-webresource/</guid>
-      <description>This post is for informational and educational purposes only. I do not guarantee for this to work in your environment. I use many unsupported features which I strongly discourage you to do. DISCLAIMER: I have read Post o nepodprtih funkcijah and I  </description>
-    </item>
-    
-    <item>
-      <title>CRM subgrids on form - how not to do it</title>
-      <link>https://lovro.rocks/posts/crm-subgrids/</link>
-      <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/crm-subgrids/</guid>
-      <description>To see part 2 about how I did it then, click here.
- Omeni, da je to nepodprto in da se ne dela, če ni res treba. Dvakrat pomislite, preden naredite  Aww yeah, my blog post!!
- povej za HTTPS povej, zakaj rabiš povej, kako si dobil URL povej, kako si rešil  I tested my assumptions using an IFrame directly on the form. Dynamics&amp;rsquo; Form Editor allows you to add a WebResource onto a form, but it also allow you to put just an Iframe.</description>
-    </item>
-    
-    <item>
-      <title>Hacking Convert to Case button</title>
-      <link>https://lovro.rocks/posts/crm-case-to-customer-plugin/</link>
-      <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/crm-case-to-customer-plugin/</guid>
-      <description>I have to thank Mycroft for the idea I present in this blog post. This time he complained about the Convert to case functionality.
-When you grab an email from some queue, you can convert it to a Case. This is a built in feature and it works as it should. An email has a From field and when you convert the case, the system sets the customer field to that value.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://lovro.rocks/posts/my-first-post/</link>
-      <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/my-first-post/</guid>
-      <description> Welcome to my web blog! </description>
     </item>
     
   </channel>
