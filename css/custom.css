@@ -1,0 +1,74 @@
+html, body {
+            
+	height: 100%;
+	margin: 0;
+
+}
+
+/* The ungrid (c) 2018 */
+/* http://chrisnager.com/ungrid */
+@media (min-width: 30em) {
+    .row { width: 100%; display: table; table-layout: fixed; height: 100%;}
+    .col { display: table-cell; height: 100%;}
+}
+
+
+.hero {
+    min-height: 70%; 
+	width: 100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.pattern{
+	background: url("../img/grayScience.png");
+	background-size: 22%;
+}
+
+.continer{
+
+}
+
+.header .title a{
+	color: #FF5D18;
+}
+
+.title-wrap{
+	
+	width: 355px;
+	height: 355px;
+	border-radius: 800px;
+	background: #2d2716de;
+	display: inline-block;
+	text-align:center; 
+	padding: 20px; 
+    
+    color: #DAD6CA;
+	
+}
+
+h2.post-title{
+	color: #FF5D18;
+}
+
+p{
+	color: #1B1B1B !important;
+}
+
+.title-wrap .firstLine{
+	
+	font-weight: bold;
+    font-size: 50px;
+    margin-top: 81px;
+    line-height: 45px;
+	
+}
+
+.title-wrap .secondLine{
+	
+	 font-size: 24px;
+	 margin-top: 20px;
+	 line-height: 25px;
+	
+}
