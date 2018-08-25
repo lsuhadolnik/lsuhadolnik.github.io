@@ -5,11 +5,11 @@ html, body {
 
 }
 
-/* The ungrid (c) 2018 */
-/* http://chrisnager.com/ungrid */
-@media (min-width: 30em) {
-    .row { width: 100%; display: table; table-layout: fixed; height: 100%;}
-    .col { display: table-cell; height: 100%;}
+
+p.image-container{
+	
+	text-align: center;
+	
 }
 
 
