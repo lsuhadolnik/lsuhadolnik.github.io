@@ -48,8 +48,10 @@ html, body {
 	
 }
 
+
+
 h2.post-title{
-	color: #FF5D18;
+	/*color: #FF5D18;*/
 }
 
 p{
@@ -70,5 +72,51 @@ p{
 	 font-size: 24px;
 	 margin-top: 20px;
 	 line-height: 25px;
+	
+}
+
+.post-entry:first-child{
+	margin-top: 0px;
+}
+
+.post-entry{
+	
+	border-left: 5px orange solid;
+	/*border-image: url("../img/country-quilt.png");*/
+	border-radius: 0px;
+	
+}
+
+.post-entry + .post-entry{ /* Tole je vsak, razen prvi post */
+	
+	margin-top: 0px;
+	
+}
+
+.post-entry:hover {
+  /*box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset;*/
+}
+
+.list-header, .first-entry > *, .post-entry, .list-footer {
+    max-width: none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+main .postsRow{
+	
+	width: inherit;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+
+main .postCol{
+	padding:0px;
+}
+
+.content-container {
+	
+	padding: 0px;
 	
 }
