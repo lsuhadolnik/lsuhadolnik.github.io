@@ -23,7 +23,7 @@ html, body {
 
 .pattern{
 	background: url("../img/grayScience.png");
-	background-size: 22%;
+	background-size: 300px;
 }
 
 .continer{
@@ -47,6 +47,8 @@ html, body {
     color: #DAD6CA;
 	
 }
+
+
 
 
 
@@ -119,4 +121,23 @@ main .postCol{
 	
 	padding: 0px;
 	
+}
+
+@media only screen and (max-width: 400px) {
+    
+	.title-wrap{
+	
+		width: 250px;
+		height: 250px;
+	}
+	
+	.title-wrap .firstLine{
+		margin-top: 60px;
+		font-size: 35px;
+		line-height: 30px;
+	}
+	
+	.title-wrap .secondLine{
+		    line-height: 5px;
+	}
 }
