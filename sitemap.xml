@@ -3,26 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lovro.rocks/posts/about-mycroft/</loc>
-    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lovro.rocks/posts/about-mycroft/about-mycroft/</loc>
     <lastmod>2018-08-22T09:59:50+02:00</lastmod>
   </url>
   
   <url>
+    <loc>https://lovro.rocks/posts/crm-case-to-customer-plugin/</loc>
+    <lastmod>2018-08-19T09:59:50+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lovro.rocks/</loc>
     <lastmod>2018-08-22T09:59:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lovro.rocks/legal-documents/cookie-policy/</loc>
-  </url>
-  
-  <url>
-    <loc>https://lovro.rocks/legal-documents/privacy-policy/</loc>
   </url>
   
   <url>
@@ -32,7 +24,6 @@
   
   <url>
     <loc>https://lovro.rocks/legal-documents/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

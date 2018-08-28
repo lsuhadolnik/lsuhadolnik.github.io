@@ -13,15 +13,6 @@
     
     <item>
       <title>About Mycroft</title>
-      <link>https://lovro.rocks/posts/about-mycroft/</link>
-      <pubDate>Wed, 22 Aug 2018 09:59:50 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/about-mycroft/</guid>
-      <description>My company is a fine little place, where everyone does what they must. It is a place where people feel so at home. And not only the employees but also our customers. When you enter the main office, our accountant interviews you about your living, you can even eat some food there and if you are especially lucky, somebody comes around and offers you a drink. Everybody got very used to this rhythm.</description>
-    </item>
-    
-    <item>
-      <title>About Mycroft</title>
       <link>https://lovro.rocks/posts/about-mycroft/about-mycroft/</link>
       <pubDate>Wed, 22 Aug 2018 09:59:50 +0200</pubDate>
       
@@ -30,23 +21,13 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://lovro.rocks/legal-documents/cookie-policy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Hacking Convert to Case button</title>
+      <link>https://lovro.rocks/posts/crm-case-to-customer-plugin/</link>
+      <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
       
-      <guid>https://lovro.rocks/legal-documents/cookie-policy/</guid>
-      <description> Analytics.md  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://lovro.rocks/legal-documents/privacy-policy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lovro.rocks/legal-documents/privacy-policy/</guid>
-      <description>Our privacy policy
-Notice:
-This website uses Google Analytics to allow the owner to better understand the usage and consequently provide better user experience. The owner does not collect or process any personal data on its own. If you are interested in getting more information about what data and how the Analytics service collects and processes it, please look at</description>
+      <guid>https://lovro.rocks/posts/crm-case-to-customer-plugin/</guid>
+      <description>I have to thank Mycroft for the idea I present in this blog post. This time he complained about the Convert to case functionality.
+When you grab an email from some queue, you can convert it to a Case. This is a built in feature and it works as it should. An email has a From field and when you convert the case, the system sets the customer field to that value.</description>
     </item>
     
   </channel>
