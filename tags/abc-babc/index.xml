@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abc Babc on lovro.rocks</title>
+    <link>https://lovro.rocks/tags/abc-babc/</link>
+    <description>Recent content in Abc Babc on lovro.rocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Aug 2018 10:52:23 +0200</lastBuildDate>
+    
+	<atom:link href="https://lovro.rocks/tags/abc-babc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dynamics CRM Plugin context depth</title>
+      <link>https://lovro.rocks/posts/crm-plugin-context-depth/</link>
+      <pubDate>Wed, 22 Aug 2018 10:52:23 +0200</pubDate>
+      
+      <guid>https://lovro.rocks/posts/crm-plugin-context-depth/</guid>
+      <description>Opiši kaj se je zgodilo - Plugin kliče Create Message, na katerega sem že obesil Plugin
+Povej, da imam plugin Boilerplate
+Napiši, kako se stvari niso updejtale, ker je bila v Plugin Boilerplate naštimana prepreka, da mora biti context depth največ ena.
+Preštudiraj plugin Context depth</description>
+    </item>
+    
+  </channel>
+</rss>

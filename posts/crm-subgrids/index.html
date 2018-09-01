@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>CRM subgrids on form - how not to do it - lovro.rocks</title>
+  
+  <meta name="description" content="To see part 2 about how I did it then, click here.
+ Omeni, da je to nepodprto in da se ne dela, če ni res treba. Dvakrat pomislite, preden naredite  Aww yeah, my blog post!!
+ povej za HTTPS povej, zakaj rabiš povej, kako si dobil URL povej, kako si rešil  I tested my assumptions using an IFrame directly on the form. Dynamics&rsquo; Form Editor allows you to add a WebResource onto a form, but it also allow you to put just an Iframe.">
+  <meta name="author" content="">
+  
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/atom-one-dark.min.css" rel="stylesheet">
+  <link href="https://lovro.rocks/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://lovro.rocks/css/style.css" rel="stylesheet">
+  <link href="https://lovro.rocks/css/custom.css" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="https://lovro.rocks/img/apple-touch-icon.png">
+  <link rel="icon" href="https://lovro.rocks/img/favicon.ico">
+  
+  <meta name="generator" content="Hugo 0.47">
+  
+  <link rel="alternate" type="application/atom+xml" href="https://lovro.rocks/index.xml" title="lovro.rocks">
+</head>
+<body class="single">
+  
+  <header class="header">
+    
+    <h1 class="title homepage-page-title"><a href="https://lovro.rocks/">lovro.rocks</a></h1>
+
+    
+  </header>
+  
+
+
+<article class="post ">
+
+  <div class="container-fluid">
+  
+	<div class="row">
+  
+		<div class="col-lg-2 pattern" style="overflow: hidden;">
+			<div class="" style="visibility: hidden;">
+			<header class="post-header">
+				<h1 class="post-title">CRM subgrids on form - how not to do it</h1>
+				<p class="post-meta">19. 08. 2018 @ 9:59</p>
+			  </header>
+  
+			<div class="post-content">
+
+<p><em>To see part 2 about how I did it then, click here.</em></p>
+
+<ul>
+<li>Omeni, da je to nepodprto in da se ne dela, če ni res treba.</li>
+<li>Dvakrat pomislite, preden naredite</li>
+</ul>
+
+<p>Aww yeah, my blog post!!</p>
+
+<ul>
+<li>povej za HTTPS</li>
+<li>povej, zakaj rabiš</li>
+<li>povej, kako si dobil URL</li>
+<li>povej, kako si rešil</li>
+</ul>
+
+<p>I tested my assumptions using an IFrame directly on the form. Dynamics&rsquo; Form Editor allows you to add a WebResource onto a form, but it also allow you to put just an Iframe. You provide the URL and the content pops up. Yaay! The ribbon worked.</p>
+
+<p>I was looking at the bare iframe - it was working but my solution wasn&rsquo;t. And I imagined it working. Then a brilliant idea hit my mind. What if I could just adjust the url of the working frame? And it turned out to be just the thing I was looking for. When I was configuring the IFrame I totally overlooked the last tab called Events. There you have an option to attach an event which triggers when the frame loads.</p>
+
+<h3 id="but">But..</h3>
+
+<p>That did not work either&hellip; When I attached the handler to DOM</p>
+
+<p>Še vedno ni funkcioniralo. (Opiši, kako se je FORM vedno znova ponovno nalagal, ker je bil v loopu - Event se je prožil ob vsakem nalaganju. V funkciji je bil ukaz, naj se ponovno naloži)</p>
+
+<p>Then I attached event handler to the <code>onLoad</code> event of the form. But that did not work either, due to some idiotic CRM feature. When the page loads, Dynamics waits for a few seconds, then it destroys the <code>Xrm</code> object. It is still in the scope, but almost all attributes return <code>null</code> when read.</p>
+
+<p>Even people on the web doesn&rsquo;t know what is going on:</p>
+
+<p><a href="https://community.dynamics.com/crm/f/117/t/180633">https://community.dynamics.com/crm/f/117/t/180633</a>
+* CHROME FRAME context selection - XRM is not null on Content frame</p>
+</div>
+			
+			</div>
+		</div>
+		
+		<div class="col-lg-1"></div>
+		
+		<div class="col-lg-7 post-view" style="margin-top: 40px;">
+  
+			  <header class="post-header">
+				<h1 class="post-title">CRM subgrids on form - how not to do it</h1>
+				<p class="post-meta">19. 08. 2018 @ 9:59</p>
+			  </header>
+  
+			<div class="post-content">
+
+<p><em>To see part 2 about how I did it then, click here.</em></p>
+
+<ul>
+<li>Omeni, da je to nepodprto in da se ne dela, če ni res treba.</li>
+<li>Dvakrat pomislite, preden naredite</li>
+</ul>
+
+<p>Aww yeah, my blog post!!</p>
+
+<ul>
+<li>povej za HTTPS</li>
+<li>povej, zakaj rabiš</li>
+<li>povej, kako si dobil URL</li>
+<li>povej, kako si rešil</li>
+</ul>
+
+<p>I tested my assumptions using an IFrame directly on the form. Dynamics&rsquo; Form Editor allows you to add a WebResource onto a form, but it also allow you to put just an Iframe. You provide the URL and the content pops up. Yaay! The ribbon worked.</p>
+
+<p>I was looking at the bare iframe - it was working but my solution wasn&rsquo;t. And I imagined it working. Then a brilliant idea hit my mind. What if I could just adjust the url of the working frame? And it turned out to be just the thing I was looking for. When I was configuring the IFrame I totally overlooked the last tab called Events. There you have an option to attach an event which triggers when the frame loads.</p>
+
+<h3 id="but">But..</h3>
+
+<p>That did not work either&hellip; When I attached the handler to DOM</p>
+
+<p>Še vedno ni funkcioniralo. (Opiši, kako se je FORM vedno znova ponovno nalagal, ker je bil v loopu - Event se je prožil ob vsakem nalaganju. V funkciji je bil ukaz, naj se ponovno naloži)</p>
+
+<p>Then I attached event handler to the <code>onLoad</code> event of the form. But that did not work either, due to some idiotic CRM feature. When the page loads, Dynamics waits for a few seconds, then it destroys the <code>Xrm</code> object. It is still in the scope, but almost all attributes return <code>null</code> when read.</p>
+
+<p>Even people on the web doesn&rsquo;t know what is going on:</p>
+
+<p><a href="https://community.dynamics.com/crm/f/117/t/180633">https://community.dynamics.com/crm/f/117/t/180633</a>
+* CHROME FRAME context selection - XRM is not null on Content frame</p>
+</div>
+	  
+				<footer class="post-footer">
+					
+				  </footer>
+				  
+				  
+				  
+				  <div id="disqus_thread"></div>
+				  <script>
+					var disqus_shortname = 'lovro-rocks';
+					(function() { 
+					  var d = document, s = d.createElement('script');
+					  s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+					  s.setAttribute('data-timestamp', +new Date());
+					  (d.head || d.body).appendChild(s);
+					})();
+				  </script>
+				  <noscript>
+					Please enable JavaScript to view the
+					<a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+				  </noscript>
+				  
+				  
+				  
+			</article>
+  
+		</div>
+  
+	</div>
+  </div>
+  
+
+
+<footer class="footer">
+  <span>&copy; 2018 lovro.rocks</span>
+  &#x1F91F;
+  <span><a href="https://lovro.rocks/legal-documents/privacy-policy/">Privacy policy</a></span>
+  &bull;
+  <span><a href="https://lovro.rocks/legal-documents/cookie-policy/">This site uses &#x1F36A;</a></span>
+  
+  </footer>
+<script src="https://cdn.bootcss.com/instantclick/3.0.1/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js" data-no-instant></script>
+<script data-no-instant>
+  hljs.initHighlightingOnLoad();
+  addMenuListener();
+  InstantClick.on('change', function() {
+    var blocks = document.querySelectorAll('pre code');
+    for (var i = 0; i < blocks.length; i++) {
+      hljs.highlightBlock(blocks[i]);
+    }
+    addMenuListener();
+  });
+  function addMenuListener() {
+    var $toggle = document.querySelector('.menu-toggle');
+    var $body = document.querySelector('body');
+    $toggle.addEventListener('click', function() {
+      $body.classList.toggle('noscroll');
+    }, false);
+  }
+</script>
+</body>
+</html>
+
