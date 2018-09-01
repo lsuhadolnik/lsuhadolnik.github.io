@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>lovro.rocks</title>
-    <link>https://lovro.rocks/posts/</link>
-    <description>Recent content on lovro.rocks</description>
+    <title>Complain on lovro.rocks</title>
+    <link>https://lovro.rocks/tags/complain/</link>
+    <description>Recent content in Complain on lovro.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Aug 2018 09:59:50 +0200</lastBuildDate>
     
-	<atom:link href="https://lovro.rocks/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lovro.rocks/tags/complain/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>https://lovro.rocks/posts/about-mycroft/about-mycroft/</guid>
       <description>My company is a fine little place, where everyone does what they must. It is a place where people feel so at home. And not only the employees but also our customers. When you enter the main office, our accountant interviews you about your living, you can even eat some food there and if you are especially lucky somebody comes around and offers you a drink. Everybody got very used to this rhythm.</description>
-    </item>
-    
-    <item>
-      <title>Hacking Convert to Case button</title>
-      <link>https://lovro.rocks/posts/crm-case-to-customer-plugin/</link>
-      <pubDate>Sun, 19 Aug 2018 09:59:50 +0200</pubDate>
-      
-      <guid>https://lovro.rocks/posts/crm-case-to-customer-plugin/</guid>
-      <description>I have to thank Mycroft for the idea I present in this blog post. This time he complained about the Convert to case functionality.
-When you grab an email from some queue, you can convert it to a Case. This is a built in feature and it works as it should. An email has a From field and when you convert the case, the system sets the customer field to that value.</description>
     </item>
     
   </channel>

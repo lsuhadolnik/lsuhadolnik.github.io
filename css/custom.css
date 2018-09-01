@@ -13,9 +13,18 @@ p.image-container{
 }
 
 
+.inline-emoji{
+	position: relative;
+    top: -5px;
+}
+
 .hero {
     min-height: 70%; 
 	width: 100%;
+	
+}
+
+.hero-centered-content{
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -24,6 +33,15 @@ p.image-container{
 .pattern{
 	background: url("../img/grayScience.png");
 	background-size: 300px;
+}
+
+.homepage-hero-title-text{
+    color: #FF5D18;
+    margin: 10px;
+    background: #ffffffcf;
+    display: inline-block;
+    padding: 10px;
+    font-size: 33px;
 }
 
 .continer{
@@ -36,15 +54,14 @@ p.image-container{
 
 .title-wrap{
 	
-	width: 355px;
-	height: 355px;
-	border-radius: 800px;
-	background: #2d2716de;
-	display: inline-block;
-	text-align:center; 
-	padding: 20px; 
-    
-    color: #DAD6CA;
+	    width: 355px;
+    height: 355px;
+    border-radius: 800px;
+    background: #ff6320d9;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
 	
 }
 
@@ -83,10 +100,25 @@ p{
 
 .post-entry{
 	
-	border-left: 5px orange solid;
+	/*border-left: 5px orange solid;*/
+	border-left: 5px #ff5600 solid;
 	/*border-image: url("../img/country-quilt.png");*/
 	border-radius: 0px;
+	/*height: 300px;*/
 	
+}
+
+.post-summary{
+	
+	display: block;
+    /*height: 130px;*/
+	overflow: hidden;
+	text-align: justify;
+	
+}
+
+.post-meta{
+	color: #ff5600 !important;
 }
 
 .post-entry + .post-entry{ /* Tole je vsak, razen prvi post */
@@ -123,6 +155,53 @@ main .postCol{
 	
 }
 
+main footer.list-footer{
+	margin-top:0px;
+}
+
+.post-header .post-title{
+	border-bottom: 2px dotted black;
+}
+
+.post-content p{
+	
+	text-align: justify;
+	
+}
+
+.post-content h2:before{
+	
+	content: '•';
+	
+	margin-right: 12px;
+    font-size: 45px;
+    color: #ff5600;
+    position: relative;
+    margin-left: 30px;
+    top: 1px;
+	
+}
+
+
+/**
+**   HOMEPAGE
+**/
+
+.homepage-heading-title{
+	
+	padding: 10px;
+	background: #2d2a2a;
+    color: #bbb;
+	font-size: 30px;
+	
+}
+
+.homepage-page-title{
+	font-size: 34px;
+}
+
+
+
 @media only screen and (max-width: 400px) {
     
 	.title-wrap{
@@ -139,5 +218,9 @@ main .postCol{
 	
 	.title-wrap .secondLine{
 		    line-height: 5px;
+	}
+	
+	.homepage-page-title{
+		font-size: inherit;
 	}
 }

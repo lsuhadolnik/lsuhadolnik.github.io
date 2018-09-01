@@ -18,7 +18,24 @@
   </url>
   
   <url>
+    <loc>https://lovro.rocks/posts/</loc>
+    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lovro.rocks/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/tags/company/</loc>
+    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/tags/complain/</loc>
+    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -27,13 +44,38 @@
   </url>
   
   <url>
-    <loc>https://lovro.rocks/posts/</loc>
+    <loc>https://lovro.rocks/tags/life/</loc>
+    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/tags/lovro/</loc>
+    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/tags/mycroft/</loc>
+    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/tags/small-talk/</loc>
+    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/tags/story/</loc>
     <lastmod>2018-08-22T09:59:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lovro.rocks/tags/</loc>
+    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
