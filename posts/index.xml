@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>lovro.rocks</title>
+    <title>Posts on lovro.rocks</title>
     <link>https://lovro.rocks/posts/</link>
-    <description>Recent content on lovro.rocks</description>
+    <description>Recent content in Posts on lovro.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Aug 2018 09:59:50 +0200</lastBuildDate>

@@ -28,11 +28,6 @@
   </url>
   
   <url>
-    <loc>https://lovro.rocks/posts/</loc>
-    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lovro.rocks/categories/</loc>
     <priority>0</priority>
   </url>
@@ -70,6 +65,11 @@
     <loc>https://lovro.rocks/tags/mycroft/</loc>
     <lastmod>2018-08-22T09:59:50+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lovro.rocks/posts/</loc>
+    <lastmod>2018-08-22T09:59:50+02:00</lastmod>
   </url>
   
   <url>

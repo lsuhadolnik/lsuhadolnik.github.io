@@ -54,7 +54,7 @@ p.image-container{
 
 .title-wrap{
 	
-	    width: 355px;
+	width: 355px;
     height: 355px;
     border-radius: 800px;
     background: #ff6320d9;
@@ -62,6 +62,7 @@ p.image-container{
     text-align: center;
     padding: 20px;
     color: #ffffff;
+	user-select: none;
 	
 }
 
@@ -208,6 +209,32 @@ main footer.list-footer{
 
 .homepage-page-title{
 	font-size: 34px;
+}
+
+.relative-wrap{
+	position:relative;
+}
+
+.right-absolute-align{
+	position: absolute;
+	right: 0px;
+}
+
+.latest-posts-sign{
+	
+	text-align: right;
+    background: #ff6320d9;
+    display: inline-block;
+    width: 187px;
+    color: white;
+    font-weight: bold;
+    padding-right: 15px;
+    font-size: 25px;
+    box-shadow: 0 0 10px #00000042;
+    position: relative;
+    z-index: 100;
+	user-select: none;
+	
 }
 
 
