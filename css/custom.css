@@ -5,6 +5,38 @@ html, body {
 
 }
 
+.no-padding{
+	padding: 0px;
+}
+
+.orange-bg{
+	background-color: #ff6320d9;
+}
+
+.orange-text{
+	color: #ff6320d9;
+}
+
+.four-dots{
+	
+	text-align: center;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 20px;
+}
+
+.capsule {
+	content: '&nbsp;';
+	font-weight: bold;
+    background: #ff6320d9;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+	display: inline-block;
+	position: relative;
+
+}
+
 
 p.image-container{
 	
@@ -252,6 +284,42 @@ main footer.list-footer{
 	}
 	
 }
+
+.single-template .home-link{
+	
+	text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+	
+}
+
+
+
+a.same-color:hover, a.same-color:visited {
+	
+	color: inherit;
+	text-decoration: none;
+	user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	
+}
+
+a.same-color div{
+	transition: top 0.4s ease-in;
+}
+
+a.same-color div:active{
+	
+	position: relative;
+	top: 2px;
+	
+	
+}
+
+
 
 
 @media only screen and (max-width: 400px) {
